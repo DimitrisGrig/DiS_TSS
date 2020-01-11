@@ -4,7 +4,7 @@ Promoters are genomic loci that comprise of all the necessary DNA motifs respons
 
 ### Prerequisites
 
-In order to run the tool you need to have installed python version 3<br>
+In order to run the tool you need to have installed python version 3.<br>
 Also the following libraries python must be met:
 ```
 kurtosis, skew from scipy.stats
@@ -27,7 +27,7 @@ python DiStss.py -i <input_file> [OPTIONS]
 -tpm       - Clusters expression below <-tpm> are expelled. Default is 1.
 ```
 ### Example run
-Make sure you are running python version 3
+Make sure you are running python version 3.
 
 Basic run letting the algorithm calculate the clusters from the bam file. Always provide full path to bam file.
 ```
