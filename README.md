@@ -6,11 +6,11 @@ Promoters are genomic loci that comprise of all the necessary DNA motifs respons
 
 In order to run the tool you need to have installed python version 3.6.
 Also the following libraries python must be met:
-'''
+```
 kurtosis, skew from scipy.stats
 find_peaks from scipy.signal
 trapz, array from numpy
 pickle
 pandas
 subprocess
-'''
+```
