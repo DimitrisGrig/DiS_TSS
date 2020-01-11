@@ -38,7 +38,6 @@ Provide your own custom clusters file. Clusters file must be in BED format.
 python Dis_main.py -i /home/user/cage.bam -clusters home/clusters.bed
 ```
 
-
 ### Authors
 Dimitris Grigoriadis, Nikos Perdikopanis, Georgios K Georgakilas and Artemis Hatzigeorgiou.
 
