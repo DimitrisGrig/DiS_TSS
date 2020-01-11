@@ -7,9 +7,9 @@ Promoters are genomic loci that comprise of all the necessary DNA motifs respons
 Examle usage of tool:<br>
 python DiStss.py -i <input_file> [OPTIONS]<br>
 <br>
--i         - CAGE-seq, bam file, (provide full path e.g. /home/user/data.bam)<br>
--clusters  - Bed file containing clusters. If set to "0" the tool will auto estimate the clusters. Default is 0 (auto).<br>
--@         - Number of theads to use. Default is 1.<br>
+-i&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp- CAGE-seq, bam file, (provide full path e.g. /home/user/data.bam)<br>
+-clusters&nbsp&nbsp- Bed file containing clusters. If set to "0" the tool will auto estimate the clusters. Default is 0 (auto).<br>
+-@\t\t\t\t&nbsp- Number of theads to use. Default is 1.<br>
 -MAPQ      - Skip alignments with map quality smaller than <-MAPQ>. Default is 10.<br>
 -MAPDist   - Minimum distance for CTSS to be merged. Default is 25.<br>
 -tpm       - Clusters expression below <-tpm> are expelled. Default is 1.<br>
