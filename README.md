@@ -14,7 +14,7 @@ pickle
 pandas
 subprocess
 ```
-
+### Running the algorithm
 ```
 Examle usage of tool:
 python DiStss.py -i <input_file> [OPTIONS]
