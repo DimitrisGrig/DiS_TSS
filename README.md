@@ -26,17 +26,18 @@ python DiStss.py -i <input_file> [OPTIONS]
 -MAPDist   - Minimum distance for CTSS to be merged. Default is 25.
 -tpm       - Clusters expression below <-tpm> are expelled. Default is 1.
 ```
-### Example run
+### Examples
 Make sure you are running python version 3.
 
 Basic run letting the algorithm calculate the clusters from the bam file. Always provide full path to bam file.
 ```
 python Dis_main.py -i /home/user/cage.bam
 ```
-Provide your own custom clusters file. Clusters file must be in BED format.
+Provide your own custom clusters file. Clusters file must be in BED format. Also use 4 CPU threads
 ```
-python Dis_main.py -i /home/user/cage.bam -clusters home/clusters.bed
+python Dis_main.py -i /home/user/cage.bam -clusters home/clusters.bed -@ 4
 ```
+
 
 ### Authors
 Dimitris Grigoriadis, Nikos Perdikopanis, Georgios K Georgakilas and Artemis Hatzigeorgiou.
