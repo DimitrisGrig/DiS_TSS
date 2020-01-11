@@ -32,5 +32,8 @@ Dimitris Grigoriadis, Nikos Perdikopanis, Georgios K Georgakilas and Artemis Hat
 ### Please cite
 
 ### License
+Free License
 
 ### Acknowledgments
+#### Contributions
+A.H. supervised the study. N.P. and D.G. envisioned and designed the algorithm and performed the unsupervised analysis. D.G. developed the algorithm. N.P performed all comparisons. A.H., D.G. and N.P. made the figures and wrote the manuscript.
