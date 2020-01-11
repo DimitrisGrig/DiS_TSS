@@ -25,5 +25,12 @@ python DiStss.py -i <input_file> [OPTIONS]
 -MAPQ      - Skip alignments with map quality smaller than <-MAPQ>. Default is 10.
 -MAPDist   - Minimum distance for CTSS to be merged. Default is 25.
 -tpm       - Clusters expression below <-tpm> are expelled. Default is 1.
-
 ```
+### Authors
+Dimitris Grigoriadis, Nikos Perdikopanis,  and Artemis Hatzigeorgiou1,2,4,*
+
+### Please cite
+
+### License
+
+### Acknowledgments
