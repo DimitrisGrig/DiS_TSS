@@ -33,7 +33,7 @@ Basic run letting the algorithm calculate the clusters from the bam file. Always
 ```
 python Dis_main.py -i /home/user/cage.bam
 ```
-Provide your own custom clusters file. Clusters file must be in BED format. Also use 4 CPU threads
+Provide your own custom clusters file. Clusters file must be in BED format. Also use 4 CPU threads.
 ```
 python Dis_main.py -i /home/user/cage.bam -clusters home/clusters.bed -@ 4
 ```
