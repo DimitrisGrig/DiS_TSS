@@ -27,7 +27,7 @@ python DiStss.py -i <input_file> [OPTIONS]
 -tpm       - Clusters expression below <-tpm> are expelled. Default is 1.
 ```
 ### Authors
-Dimitris Grigoriadis, Nikos Perdikopanis, Georgios K Georgakilas and Artemis Hatzigeorgiou1,2,4,*
+Dimitris Grigoriadis, Nikos Perdikopanis, Georgios K Georgakilas and Artemis Hatzigeorgiou
 
 ### Please cite
 
