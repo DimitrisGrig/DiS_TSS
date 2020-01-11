@@ -29,9 +29,13 @@ python DiStss.py -i <input_file> [OPTIONS]
 ### Example run
 Make sure you are running python version 3
 
-Basic run letting the algorithm calculate the clusters from the bam file
+Basic run letting the algorithm calculate the clusters from the bam file. Always provide full path to bam file.
 ```
 python Dis_main.py -i /home/user/cage.bam
+```
+Provide your own custom clusters file. Clusters file must be in BED format.
+```
+python Dis_main.py -i /home/user/cage.bam -clusters home/clusters.bed
 ```
 
 
