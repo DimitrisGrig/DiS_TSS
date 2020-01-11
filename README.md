@@ -4,7 +4,7 @@ Promoters are genomic loci that comprise of all the necessary DNA motifs respons
 
 ### Prerequisites
 
-In order to run the tool you need to have installed python version 3.6.
+In order to run the tool you need to have installed python version 3.6.<br>
 Also the following libraries python must be met:
 ```
 kurtosis, skew from scipy.stats
@@ -13,4 +13,17 @@ trapz, array from numpy
 pickle
 pandas
 subprocess
+```
+
+```
+Examle usage of tool:
+python DiStss.py -i <input_file> [OPTIONS]
+
+-i         - CAGE-seq, bam file, (provide full path e.g. /home/user/data.bam)
+-clusters  - Bed file containing clusters. If set to "0" the tool will auto estimate the clusters. Default is 0 (auto).
+-@         - Number of theads to use. Default is 1.
+-MAPQ      - Skip alignments with map quality smaller than <-MAPQ>. Default is 10.
+-MAPDist   - Minimum distance for CTSS to be merged. Default is 25.
+-tpm       - Clusters expression below <-tpm> are expelled. Default is 1.
+
 ```
