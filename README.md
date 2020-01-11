@@ -5,7 +5,7 @@ Promoters are genomic loci that comprise of all the necessary DNA motifs respons
 ### Prerequisites
 
 In order to run the tool you need to have installed python version 3.<br>
-Also the following libraries python must be met:
+The following python libraries must be met:
 ```
 kurtosis and skew from scipy.stats
 find_peaks from scipy.signal
@@ -14,6 +14,11 @@ pickle
 pandas
 subprocess
 ```
+Also Bedtools must be installed. 
+```
+https://bedtools.readthedocs.io/en/latest/content/installation.html
+```
+
 ### Running the algorithm
 ```
 Examle usage of tool:
