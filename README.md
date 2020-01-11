@@ -50,4 +50,5 @@ Free License.
 
 ### Acknowledgments
 ##### Contributions
-A.H. supervised the study. N.P. and D.G. envisioned and designed the algorithm and performed the unsupervised analysis. D.G. developed the algorithm. N.P performed all comparisons. A.H., D.G. and N.P. made the figures and wrote the manuscript.
+A.H. supervised the study. N.P. and D.G. envisioned and designed the algorithm and performed the unsupervised analysis. D.G. developed the algorithm. N.P performed all comparisons. A.H., D.G., G.G. and N.P. made the figures and wrote the manuscript.
+
