@@ -14,7 +14,7 @@ pickle
 pandas
 subprocess
 ```
-Also Bedtools must be installed. 
+Also bedtools must be installed. 
 ```
 https://bedtools.readthedocs.io/en/latest/content/installation.html
 ```
