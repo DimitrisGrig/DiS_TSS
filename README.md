@@ -4,6 +4,8 @@ Promoters are genomic loci that comprise of all the necessary DNA motifs respons
 
 ### Prerequisites
 
+This is a unix based script as it uses several bash command (e.g. sort).
+
 In order to run the tool you need to have installed python version 3.<br>
 The following python libraries must be met:
 ```
