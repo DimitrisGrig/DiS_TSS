@@ -25,7 +25,7 @@ http://www.htslib.org/download/
 ### Running the algorithm
 ```
 Examle usage of tool:
-python DiStss.py -i <input_file> [OPTIONS]
+python Dis_main.py -i <input_file> [OPTIONS]
 
 -i         - CAGE-seq, bam file, (provide full path e.g. /home/user/data.bam)
 -clusters  - Bed file containing clusters. If set to "0" the tool will auto estimate the clusters. Default is 0 (auto).
