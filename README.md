@@ -37,6 +37,13 @@ python DiStss.py -i <input_file> [OPTIONS]
 ### Examples
 Make sure you are running python version 3.
 
+#### Download Example data from FANTOM5 repository 
+
+The following bam refers to H9 Embryonic stem cells:
+```
+http://fantom.gsc.riken.jp/5/datafiles/latest/basic/human.timecourse.hCAGE/H9%2520Embryonic%2520Stem%2520cells%252c%2520biol_rep1%2520%2528H9ES-1%2529.CNhs11917.12626-134E7.hg19.nobarcode.bam
+```
+
 Basic run letting the algorithm calculate the clusters directly from the bam file. Always provide full path for bam file.
 ```
 python Dis_main.py -i /home/user/cage.bam
@@ -44,12 +51,6 @@ python Dis_main.py -i /home/user/cage.bam
 Provide your own custom clusters file. Clusters file must be in BED format. Also use 4 CPU threads.
 ```
 python Dis_main.py -i /home/user/cage.bam -clusters home/clusters.bed -@ 4
-```
-#### Download Example data from FANTOM5 repository 
-
-The following bam refers to H9 Embryonic stem cells:
-```
-http://fantom.gsc.riken.jp/5/datafiles/latest/basic/human.timecourse.hCAGE/H9%2520Embryonic%2520Stem%2520cells%252c%2520biol_rep1%2520%2528H9ES-1%2529.CNhs11917.12626-134E7.hg19.nobarcode.bam
 ```
 
 ### Authors
