@@ -43,6 +43,11 @@ The following bam refers to H9 Embryonic stem cells:
 ```
 http://fantom.gsc.riken.jp/5/datafiles/latest/basic/human.timecourse.hCAGE/H9%2520Embryonic%2520Stem%2520cells%252c%2520biol_rep1%2520%2528H9ES-1%2529.CNhs11917.12626-134E7.hg19.nobarcode.bam
 ```
+#### Quick run
+
+```
+python Dis_main.py -i /path_to/H9.bam -clusters /H9_clusters.bed -@ 4
+```
 
 Basic run letting the algorithm calculate the clusters directly from the bam file. Always provide full path for bam file.
 ```
