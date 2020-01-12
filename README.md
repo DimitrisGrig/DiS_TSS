@@ -14,9 +14,10 @@ pickle
 pandas
 subprocess
 ```
-Also bedtools must be installed. 
+Also bedtools and samtools must be installed. 
 ```
 https://bedtools.readthedocs.io/en/latest/content/installation.html
+http://www.htslib.org/download/
 ```
 
 ### Running the algorithm
