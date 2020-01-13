@@ -59,7 +59,7 @@ python Dis_main.py -i /home/user/cage.bam -clusters home/clusters.bed -@ 4
 ```
 
 ### Authors
-Dimitris Grigoriadis, Nikos Perdikopanis, Georgios K Georgakilas and Artemis Hatzigeorgiou.
+Dimitris Grigoriadis, Nikos Perdikopanis, Georgios K. Georgakilas and Artemis Hatzigeorgiou.
 
 ### Please cite
 TBA (under submission)
