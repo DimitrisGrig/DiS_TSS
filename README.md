@@ -62,7 +62,7 @@ python Dis_main.py -i /home/user/cage.bam -clusters home/clusters.bed -@ 4
 Dimitris Grigoriadis, Nikos Perdikopanis, Georgios K. Georgakilas and Artemis Hatzigeorgiou.
 
 ### Please cite
-Grigoriadis, Dimitris, Nikos Perdikopanis, Georgios K. Georgakilas, and Artemis Hatzigeorgiou. "DiS-TSS: An Annotation Agnostic Algorithm for TSS Identification." In International Work-Conference on Bioinformatics and Biomedical Engineering, pp. 613-623. Springer, Cham, 2020.
+Grigoriadis, D., Perdikopanis, N., Georgakilas, G. K., & Hatzigeorgiou, A. (2020, May). DiS-TSS: An Annotation Agnostic Algorithm for TSS Identification. In International Work-Conference on Bioinformatics and Biomedical Engineering (pp. 613-623). Springer, Cham.
 
 ### License
 Free License.
